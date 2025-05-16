@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.link-footer {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    margin: 0.5rem 0;
+    width: 50%;
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    text-decoration: underline;
+}
