@@ -1,5 +1,5 @@
 const NavBar = () => {
-  return <div></div>;
+  return <div>LOGO Y LINK A CONTACTANOS</div>;
 };
 
 export default NavBar;

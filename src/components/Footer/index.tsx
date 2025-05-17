@@ -3,9 +3,6 @@ import Link from 'next/link';
 import { SiFacebook, SiInstagram } from 'react-icons/si';
 
 const Footer = () => {
-  // Año actual para el copyright
-  const currentYear = new Date().getFullYear();
-
   return (
     <footer className="bg-[#1A365D] text-white py-8">
       <div className="mx-auto max-w-screen-xl px-6 pb-4 pt-6 sm:pt-10 lg:pt-8">
