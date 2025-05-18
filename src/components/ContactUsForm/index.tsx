@@ -58,7 +58,7 @@ export const ContactUsForm: React.FC<ContactUsFormProps> = () => {
                 id="phone-number"
                 autoComplete="tel"
                 placeholder="Con código de área, sin 0"
-                className="w-full border border-gray-300 focus:ring-gold-butter focus:border-gold-butter p-2 rounded h-[49px]"
+                className="w-full border border-gray-300 focus:ring-gold-butter focus:border-gold-butter p-1 rounded h-[49px]"
               />
             </div>
           </div>
@@ -69,7 +69,7 @@ export const ContactUsForm: React.FC<ContactUsFormProps> = () => {
             </label>
             <textarea
               id="message"
-              placeholder="Necesito asesoría para comprar un auto"
+              placeholder="Quisiera que me contacten"
               className="w-full border border-gray-300 focus:ring-gold-butter focus:border-gold-butter p-2 rounded flex-1 h-auto md:h-[342px]"
               rows={4}
             />
